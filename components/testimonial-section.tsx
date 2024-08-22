@@ -4,15 +4,15 @@ import { Card, CardContent } from './ui/card';
 
 const testimonials = [
   {
-    text: "ShopEase has revolutionized my online shopping experience. The variety of products and ease of use are unmatched!",
+    text: "Easy UI has revolutionized my online shopping experience. The variety of products and ease of use are unmatched!",
     author: "Sarah J.",
   },
   {
-    text: "I love the deals and the customer service is top-notch. ShopEase is my go-to for all my shopping needs.",
+    text: "I love the deals and the customer service is top-notch. Easy UI is my go-to for all my shopping needs.",
     author: "Mike T.",
   },
   {
-    text: "Fast shipping and great prices. ShopEase has made online shopping a breeze for me! ShopEase is my fav.",
+    text: "Fast shipping and great prices. Easy UI has made online shopping a breeze for me! Easy UI is my fav.",
     author: "Emily R.",
   },
 ];

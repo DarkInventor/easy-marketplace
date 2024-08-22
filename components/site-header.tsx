@@ -56,18 +56,20 @@ const Header = ({ setCurrentPage, cart, setCart, isCartOpen, setIsCartOpen }) =>
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
   //@ts-ignore
   const totalPrice = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  
 
   return (
+    
     <div className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
         <div className="mr-4 hidden md:flex">
           <a
             className="mr-6 flex items-center space-x-2"
-            href="#"
+            href="/#"
             onClick={() => setCurrentPage("landing")}
           >
             <ShoppingCartIcon className="h-6 w-6" />
-            <span className="hidden font-bold sm:inline-block">ShopEase</span>
+            <span className="hidden font-bold sm:inline-block">Easy UI</span>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <a
@@ -85,7 +87,7 @@ const Header = ({ setCurrentPage, cart, setCart, isCartOpen, setIsCartOpen }) =>
             </a>
             <a
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="#"
+              href="/#deals"
             >
               Deals
             </a>

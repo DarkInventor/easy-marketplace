@@ -209,6 +209,7 @@ export default function ECommerceApp() {
                 <Button
                   variant="outline"
                   className="inline-flex items-center justify-center border-black text-black dark:border-white dark:text-white hover:bg-gray-100 dark:hover:bg-gray-900"
+                  onClick={() => window.open('https://easyui.pro', '_blank')}
                 >
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -216,8 +217,6 @@ export default function ECommerceApp() {
               </div>
             </div>
             <div className="relative mx-auto lg:order-last">
-              {/* Animated background */}
-              <div className="absolute -inset-4 rounded-xl opacity-50 blur-2xl" />
               <img
                 alt="Hero"
                 className="relative z-10 w-full h-[auto] max-w-[700px] aspect-[4/3] object-cover object-center"
@@ -225,14 +224,11 @@ export default function ECommerceApp() {
                 src="/easy-transparent3.png"
                 width="700"
               />
-
-              {/* Floating elements */}
               <div className="absolute -top-4 -left-4 w-6 h-6 bg-black dark:bg-white rounded-full" />
               <div className="absolute -bottom-4 -right-4 w-6 h-6 bg-black dark:bg-white rounded-full" />
 
-              {/* Animated lines */}
               <div
-                className="absolute inset-0 z-0" // Set z-index behind the image
+                className="absolute inset-0 z-0" 
                 style={{
                   backgroundImage:
                     "radial-gradient(circle at 50% 50%, rgba(255,255,255,0.1), rgba(0,0,0,0.05) 70%, transparent 70%)",

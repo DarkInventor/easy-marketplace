@@ -8,18 +8,18 @@ const AboutSection = React.forwardRef((props, ref) => (
   >
     <div className="container px-4 md:px-6">
       <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8">
-        About ShopEase
+        About Easy UI
       </h2>
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-muted-foreground mb-6">
-          At ShopEase, we believe in the power of intuitive design and
+          At Easy UI, we believe in the power of intuitive design and
           seamless user experiences. Our mission is to revolutionize the way
           people interact with software, making it more accessible,
           efficient, and enjoyable.
         </p>
         <p className="text-muted-foreground mb-6">
           Founded by a team of passionate UI/UX designers and developers,
-          ShopEase is committed to delivering software solutions that not
+          Easy UI is committed to delivering software solutions that not
           only meet your needs but exceed your expectations. We understand
           that in today's fast-paced digital world, ease of use is
           paramount.
