@@ -186,6 +186,7 @@ export default function ECommerceApp() {
   );
 
   const renderLandingPage = () => (
+    // Landing Page  Section 
     <main className="flex-1">
       <section className="w-full py-12 md:py-24 lg:py-28 xl:py-28 bg-white dark:bg-black overflow-hidden">
         <div className="container px-4 md:px-6 mx-auto">
@@ -252,6 +253,7 @@ export default function ECommerceApp() {
   );
 
   const renderCart = () => (
+    // Cart Section
     <>
       {isCartOpen && (
         <>
