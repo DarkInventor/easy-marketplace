@@ -20,7 +20,7 @@ const testimonials = [
 const TestimonialSection = () => (
   <section className="w-full mt-0 pb-0">
     <div className="container px-4 md:px-6">
-      <h2 className="text-2xl font-bold tracking-tighter sm:text-2xl text-center pb-10 py-0 ">
+    <h2 className="text-2xl font-extrabold text-center text-gray-900 mb-16">
         What Our Customers Say
       </h2>
       <div className="grid gap-6 lg:grid-cols-3">

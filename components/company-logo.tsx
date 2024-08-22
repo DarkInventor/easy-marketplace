@@ -31,7 +31,7 @@ const CompanyLogoSection = () => {
   return (
     <section className="w-full ">
       <div className="container px-4 md:px-6">
-        <h2 className="text-xl font-bold tracking-tighter sm:text-2xl text-center mb-8">
+      <h2 className="text-2xl font-extrabold text-center text-gray-900 mb-16">
           Trusted by Top Brands
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center justify-center">

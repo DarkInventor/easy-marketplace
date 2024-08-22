@@ -12,22 +12,18 @@ interface CategorySectionProps {
 
 const CategorySection: React.FC<CategorySectionProps> = ({ categories }) => {
   return (
-    <section
-      className="w-full py-10 md:py-10 lg:py-10" id="categories-section"
-    >
-      <div className="container px-4 md:px-6">
-        <h2 className="text-2xl font-bold tracking-tighter sm:text-2xl text-center mb-10">
-          Categories
+    <section className="w-full py-20 bg-white" id="categories-section">
+      <div className="max-w-screen-xl mx-auto px-8">
+      <h2 className="text-2xl font-extrabold text-center text-gray-900 mb-16">
+          Explore Categories
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-10">
           {categories.map((category, index) => (
-            <div key={index}>
-              <Card className="hover:bg-muted/50 transition-colors cursor-pointer">
-                <CardContent className="p-6 flex flex-col items-center text-center">
-                  <span className="text-4xl mb-4">{category.icon}</span>
-                  <h3 className="text-lg font-semibold">{category.name}</h3>
-                </CardContent>
-              </Card>
+            <div key={index} className="flex flex-col items-center text-center">
+              <div className="w-20 h-20 mb-4 flex items-center justify-center text-5xl text-gray-800 bg-gray-100 rounded-full">
+                {category.icon}
+              </div>
+              <h3 className="text-xl font-medium text-gray-900">{category.name}</h3>
             </div>
           ))}
         </div>

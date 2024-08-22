@@ -73,9 +73,9 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="w-full mt-10 ">
+    <section className="w-full mt-10">
       <div className="container px-4 md:px-6">
-        <h2 className="text-2xl font-bold tracking-tighter sm:text-2xl text-center mb-10">
+      <h2 className="text-2xl font-extrabold text-center text-gray-900 mb-10 lg:mb-16">
           Our Features
         </h2>
         <div className="grid gap-6 lg:grid-cols-3">

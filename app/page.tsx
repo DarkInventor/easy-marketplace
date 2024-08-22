@@ -26,43 +26,37 @@ const products = [
     id: 1,
     name: "Project Management Pro",
     price: 99.99,
-    image:
-      "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
   },
   {
     id: 2,
     name: "Code Editor Deluxe",
     price: 79.99,
-    image:
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
   },
   {
     id: 3,
     name: "Database Manager Ultimate",
     price: 149.99,
-    image:
-      "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
   },
   {
     id: 4,
     name: "Cloud Storage Solution",
     price: 59.99,
-    image:
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
   },
   {
     id: 5,
     name: "Secure VPN Service",
     price: 39.99,
-    image:
-      "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
   },
   {
     id: 6,
     name: "AI-Powered Analytics",
     price: 199.99,
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
   },
 ];
 
@@ -81,8 +75,7 @@ const deals = [
     name: "AI Assistant Pro",
     price: 79.99,
     originalPrice: 129.99,
-    image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
     tag: "New Product",
   },
   {
@@ -90,8 +83,7 @@ const deals = [
     name: "Cloud Sync Ultimate",
     price: 49.99,
     originalPrice: 89.99,
-    image:
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
     tag: "Deal of the Day",
   },
   {
@@ -99,8 +91,7 @@ const deals = [
     name: "Marketing Automation Suite",
     price: 159.99,
     originalPrice: 249.99,
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
     tag: "Monthly Special",
   },
   {
@@ -108,8 +99,7 @@ const deals = [
     name: "Collaboration Platform",
     price: 29.99,
     originalPrice: 59.99,
-    image:
-      "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://via.placeholder.com/1000",
     tag: "New Deal",
   },
 ];
